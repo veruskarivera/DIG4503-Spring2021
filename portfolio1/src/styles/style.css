@@ -1,0 +1,51 @@
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background-color: #F6F7EB;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+
+.button__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 20px 0px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.market {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+    margin-right: auto;
+    max-width: 1500px;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 80px;
+}
+
+
+.checkoutProduct {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Hammersmith One', sans-serif;
+   
+}
