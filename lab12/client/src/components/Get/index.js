@@ -15,10 +15,9 @@ function GetBook() {
       <h5> Please enter your book's ISBN.</h5>
       <input
         type="text"
-        value={getISBN}
         onChange={event => setGetISBN(event.target.value)}
       ></input>
-        <br></br>
+      <br></br>
       <br></br>
       <button
         onClick={() => {
