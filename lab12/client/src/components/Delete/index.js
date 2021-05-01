@@ -26,7 +26,7 @@ function DeleteBook() {
       <button
         onClick={() => {
           DeleteBookISBN();
-        }}
+        }}npm
       >
         Delete it
       </button>

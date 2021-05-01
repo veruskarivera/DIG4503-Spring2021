@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.title {
+  color: gold;
+}
+
+h2 {
+  color: gold;
+}
+
+.Add {
+  margin-top: 20px;
+  background-color: #fafafa;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+.Search {
+  margin-top: 20px;
+  background-color: #fafafa;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+.Delete {
+  margin-top: 20px;
+  background-color: #fafafa;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-right: 500px;
+  margin-left: 500px;
+}
+
+button {
+  border: 1px solid black;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 7px 6px #000000;
+  transition: background 0.3s ease-in-out, color ease-in-out;
+}
+
+button a {
+  font-size: 16px;
+}
+
+button:hover {
+  font-size: 17px;
+  background-color: gold;
+}
+
+
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 7px 6px #000000;
+  transition: background 0.3s ease-in-out, color ease-in-out;
+}
+
+.button a {
+  font-size: 16px;
+}
+
+.button:hover {
+  font-size: 17px;
+  background-color: gold;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
